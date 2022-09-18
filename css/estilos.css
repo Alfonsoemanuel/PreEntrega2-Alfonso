@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: lightgreen;
 }
 
 p{
@@ -14,18 +14,14 @@ p{
 
 }
 
-nav{
+
+.oscuro{
+    background-color: red;
     width: 0 auto;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
     margin: 10px 500px 100px 500px;
-    background-color: black;
-    color: white;
-}
-
-div{
-    display: inline-block;
 }
 
 ul{
