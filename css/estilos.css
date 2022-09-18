@@ -32,13 +32,53 @@ li{
     display: inline-block;
 }
 
+.historia{
+    text-align: center;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
 .tripulacion{
     text-align: center;
     font-weight: bolder;
 }
 
-.historia{
+.leela{
+    display: flexbox;
+}
+
+.fry{
+    display: block;
+}
+
+.bender{
+    display: block;
+}
+
+.amy{
+    display: flexbox;
+}
+
+.hermes{
+    display: flexbox;
+}
+
+.zoidberg{
+    display: block;
+}
+.redes{
+    background-color: black;
     text-align: center;
-    letter-spacing: 3px;
-    font-style: italic;
+    padding: 20px;
+}
+
+.facebook:hover{
+    transform: scale(3);
+}
+.instagram:hover{
+    transform: scale(3);
+}
+
+.twitter:hover{
+transform: scale(3);
 }
