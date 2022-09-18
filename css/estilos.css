@@ -5,7 +5,22 @@
 
 body{
     background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
+
+header{
+    display: grid;
+    justify-content: center;
+
+}
+
+.logo{
+    text-align: center;
+}
+
 
 p{
     color: black;
@@ -39,33 +54,14 @@ li{
 }
 
 .tripulacion{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(2,2fr);
     text-align: center;
     font-weight: bolder;
 }
 
-.leela{
-    display: flexbox;
-}
-
-.fry{
-    display: block;
-}
-
-.bender{
-    display: block;
-}
-
-.amy{
-    display: flexbox;
-}
-
-.hermes{
-    display: flexbox;
-}
-
-.zoidberg{
-    display: block;
-}
 .redes{
     background-color: black;
     text-align: center;
