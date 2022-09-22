@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: lightgreen;
+    background-color: #408975;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -19,6 +19,11 @@ header{
 
 .logo{
     text-align: center;
+}
+
+.intro{
+    text-align: center;
+    justify-content: center;
 }
 
 
@@ -64,6 +69,7 @@ li{
 
 .servicios{
     text-align: center;
+    justify-content: center;
 }
 
 .redes{
@@ -114,10 +120,4 @@ transform: scale(3);
         grid-template-columns: 1fr 1fr;
         grid-row: 2 2fr 2fr;
     }
-    }
-
-    @media(min-width:1024){
-        .logo{
-
-        }
     }
